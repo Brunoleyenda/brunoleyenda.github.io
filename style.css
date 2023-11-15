@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.card{
+    position: relative;
+    width: 300px;
+}
+
+img{
+    width: 100%;
+    display: inherit;
+}
+
+.icon{
+    width: 60px!important;
+}
+
+.card img{
+    border-radius: 10%;
+}
+
+.mas {
+    position: absolute;
+    right: 13px;
+    top: 13px;
+    border-radius: 100%;}
+
+.more-options{
+    position: absolute;
+    bottom: 13px;
+    right: 20px;
+}
+
+.box-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.mi-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+#our-services {
+    max-width: 1200px;
+    margin: auto;
+}
